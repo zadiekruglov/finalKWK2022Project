@@ -20,6 +20,7 @@
 		BD6959722899CF2C006BC4D5 /* chatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959712899CF2C006BC4D5 /* chatTableViewController.swift */; };
 		BD6959742899D42B006BC4D5 /* appChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959732899D42B006BC4D5 /* appChatViewController.swift */; };
 		BD6959762899E17E006BC4D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959752899E17E006BC4D5 /* ContentView.swift */; };
+		BD6959B7289AF791006BC4D5 /* segueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959B6289AF791006BC4D5 /* segueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BD6959712899CF2C006BC4D5 /* chatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewController.swift; sourceTree = "<group>"; };
 		BD6959732899D42B006BC4D5 /* appChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appChatViewController.swift; sourceTree = "<group>"; };
 		BD6959752899E17E006BC4D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD6959B6289AF791006BC4D5 /* segueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				BD6959402899C53D006BC4D5 /* SceneDelegate.swift */,
 				BD6959422899C53D006BC4D5 /* ViewController.swift */,
 				BD6959442899C53D006BC4D5 /* Main.storyboard */,
+				BD6959B6289AF791006BC4D5 /* segueViewController.swift */,
 				BD6959732899D42B006BC4D5 /* appChatViewController.swift */,
 				BD69594A2899C53E006BC4D5 /* Assets.xcassets */,
 				BD69594C2899C53E006BC4D5 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				BD6959722899CF2C006BC4D5 /* chatTableViewController.swift in Sources */,
 				BD6959762899E17E006BC4D5 /* ContentView.swift in Sources */,
 				BD6959492899C53D006BC4D5 /* finalKWK2022Project.xcdatamodeld in Sources */,
+				BD6959B7289AF791006BC4D5 /* segueViewController.swift in Sources */,
 				BD6959432899C53D006BC4D5 /* ViewController.swift in Sources */,
 				BD69593F2899C53D006BC4D5 /* AppDelegate.swift in Sources */,
 				BD6959412899C53D006BC4D5 /* SceneDelegate.swift in Sources */,
