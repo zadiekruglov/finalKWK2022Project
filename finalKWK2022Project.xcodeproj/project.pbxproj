@@ -17,6 +17,9 @@
 		BD6959592899C53F006BC4D5 /* finalKWK2022ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959582899C53F006BC4D5 /* finalKWK2022ProjectTests.swift */; };
 		BD6959632899C53F006BC4D5 /* finalKWK2022ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959622899C53F006BC4D5 /* finalKWK2022ProjectUITests.swift */; };
 		BD6959652899C53F006BC4D5 /* finalKWK2022ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959642899C53F006BC4D5 /* finalKWK2022ProjectUITestsLaunchTests.swift */; };
+		BD6959722899CF2C006BC4D5 /* chatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959712899CF2C006BC4D5 /* chatTableViewController.swift */; };
+		BD6959742899D42B006BC4D5 /* appChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959732899D42B006BC4D5 /* appChatViewController.swift */; };
+		BD6959762899E17E006BC4D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959752899E17E006BC4D5 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		BD69595E2899C53F006BC4D5 /* finalKWK2022ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalKWK2022ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6959622899C53F006BC4D5 /* finalKWK2022ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalKWK2022ProjectUITests.swift; sourceTree = "<group>"; };
 		BD6959642899C53F006BC4D5 /* finalKWK2022ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalKWK2022ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD6959712899CF2C006BC4D5 /* chatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewController.swift; sourceTree = "<group>"; };
+		BD6959732899D42B006BC4D5 /* appChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appChatViewController.swift; sourceTree = "<group>"; };
+		BD6959752899E17E006BC4D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		BD6959322899C53D006BC4D5 = {
 			isa = PBXGroup;
 			children = (
+				BD6959752899E17E006BC4D5 /* ContentView.swift */,
+				BD6959712899CF2C006BC4D5 /* chatTableViewController.swift */,
 				BD69593D2899C53D006BC4D5 /* finalKWK2022Project */,
 				BD6959572899C53F006BC4D5 /* finalKWK2022ProjectTests */,
 				BD6959612899C53F006BC4D5 /* finalKWK2022ProjectUITests */,
@@ -105,6 +113,7 @@
 				BD6959402899C53D006BC4D5 /* SceneDelegate.swift */,
 				BD6959422899C53D006BC4D5 /* ViewController.swift */,
 				BD6959442899C53D006BC4D5 /* Main.storyboard */,
+				BD6959732899D42B006BC4D5 /* appChatViewController.swift */,
 				BD69594A2899C53E006BC4D5 /* Assets.xcassets */,
 				BD69594C2899C53E006BC4D5 /* LaunchScreen.storyboard */,
 				BD69594F2899C53E006BC4D5 /* Info.plist */,
@@ -261,6 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6959742899D42B006BC4D5 /* appChatViewController.swift in Sources */,
+				BD6959722899CF2C006BC4D5 /* chatTableViewController.swift in Sources */,
+				BD6959762899E17E006BC4D5 /* ContentView.swift in Sources */,
 				BD6959492899C53D006BC4D5 /* finalKWK2022Project.xcdatamodeld in Sources */,
 				BD6959432899C53D006BC4D5 /* ViewController.swift in Sources */,
 				BD69593F2899C53D006BC4D5 /* AppDelegate.swift in Sources */,
