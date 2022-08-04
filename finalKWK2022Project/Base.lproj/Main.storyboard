@@ -437,126 +437,61 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>
-        <!--Segue View Controller-->
-        <scene sceneID="hDM-7O-l9O">
+        <!--Artist View Controller-->
+        <scene sceneID="nn2-t6-eYk">
             <objects>
-                <viewController id="oJr-8y-HHA" customClass="segueViewController" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="V0x-1W-8bS">
+                <viewController id="kcK-xz-cLB" customClass="artistViewController" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hko-ct-Ycq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fk-gL-Bj7">
-                                <rect key="frame" x="20" y="485" width="365" height="303"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Mh-aB-0vW">
+                                <rect key="frame" x="45" y="174" width="325" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="15"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7Y-hm-MX8">
+                                <rect key="frame" x="20" y="-14" width="374" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKM-hi-GsP">
-                                <rect key="frame" x="20" y="131" width="374" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UV0-GU-XOg">
+                                <rect key="frame" x="45" y="464" width="325" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="2. Ramona Pintea ">
-                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                    <attributedString key="attributedSubtitle"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Ramona:" destination="oJr-8y-HHA" eventType="touchUpInside" id="Fw9-bX-7SV"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k90-Mh-TpD">
-                                <rect key="frame" x="20" y="60" width="374" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="1. Isabelle Arsenault">
-                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                    <attributedString key="attributedSubtitle"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Isabelle:" destination="oJr-8y-HHA" eventType="touchUpInside" id="oh6-s7-dTF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Saq-7Y-r5h">
-                                <rect key="frame" x="20" y="202" width="374" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="3. Conny Lehmann ">
-                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Conny:" destination="oJr-8y-HHA" eventType="touchUpInside" id="yFZ-x8-II5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW7-cB-TLt">
-                                <rect key="frame" x="20" y="281" width="374" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="4. Monica Cook ">
-                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Monica:" destination="oJr-8y-HHA" eventType="touchUpInside" id="G8K-Dn-x6p"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBj-jz-7dl">
-                                <rect key="frame" x="20" y="350" width="374" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="5. Doaa Eladl ">
-                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Doaa:" destination="oJr-8y-HHA" eventType="touchUpInside" id="tZq-Iz-Li9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rv-KS-pgf">
-                                <rect key="frame" x="20" y="427" width="374" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="6. Laurie Simmons ">
-                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="Laurie:" destination="oJr-8y-HHA" eventType="touchUpInside" id="QNP-fI-UEx"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Credits To Artists..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWi-pU-xp5">
-                                <rect key="frame" x="43" y="11" width="328" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csp-Ip-NNK">
+                                <rect key="frame" x="135" y="700" width="145" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn More" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="learnMore:" destination="kcK-xz-cLB" eventType="touchUpInside" id="8Ig-kM-ikw"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="4Ji-B2-MNG"/>
+                        <viewLayoutGuide key="safeArea" id="f45-jW-LDF"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sYy-ii-eI8"/>
+                    <navigationItem key="navigationItem" id="oGc-x9-sdZ"/>
                     <connections>
-                        <outlet property="label" destination="5Fk-gL-Bj7" id="jfF-dh-Lbe"/>
-                        <outlet property="opt1" destination="k90-Mh-TpD" id="qUm-VV-nUh"/>
-                        <outlet property="opt2" destination="hKM-hi-GsP" id="4hg-BA-WmK"/>
-                        <outlet property="opt3" destination="Saq-7Y-r5h" id="GCW-y4-Qd4"/>
-                        <outlet property="opt4" destination="LW7-cB-TLt" id="Rrq-zy-1Z7"/>
-                        <outlet property="opt5" destination="tBj-jz-7dl" id="FaS-DX-e9I"/>
-                        <outlet property="opt6" destination="1rv-KS-pgf" id="rdR-NZ-7y0"/>
+                        <outlet property="artPicture" destination="9Mh-aB-0vW" id="18p-E8-pzO"/>
+                        <outlet property="artistDescription" destination="UV0-GU-XOg" id="uCU-QZ-Iq4"/>
+                        <outlet property="artistInfo" destination="T7Y-hm-MX8" id="fxh-DU-cfp"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sNh-ou-S2y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ivf-hF-BNm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413.0434782608697" y="-557.14285714285711"/>
+            <point key="canvasLocation" x="259.4202898550725" y="-649.55357142857144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K7z-BE-Y7T">
@@ -590,37 +525,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button">
-                                    <backgroundConfiguration key="background" image="Screen Shot 2022-08-03 at 10.15.20 AM"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="woman with blood"/>
                                 </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW3-N0-wPN">
-                                <rect key="frame" x="127" y="777" width="161" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Art Credits" cornerStyle="capsule">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="oJr-8y-HHA" kind="show" id="1Or-6h-daX"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="collage" translatesAutoresizingMaskIntoConstraints="NO" id="ha3-Pj-4pz">
                                 <rect key="frame" x="187" y="208" width="140" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 1.47.37 PM 1" translatesAutoresizingMaskIntoConstraints="NO" id="ZD1-vb-wbZ">
-                                <rect key="frame" x="52" y="147" width="133" height="240"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Object on Legs" translatesAutoresizingMaskIntoConstraints="NO" id="ZD1-vb-wbZ">
+                                <rect key="frame" x="61" y="148" width="133" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 1.22.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="M9k-GD-ZWc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tiger roaring at woman" translatesAutoresizingMaskIntoConstraints="NO" id="M9k-GD-ZWc">
                                 <rect key="frame" x="74" y="345" width="148" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 1.42.16 PM" translatesAutoresizingMaskIntoConstraints="NO" id="kE0-NE-dMB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl in red" translatesAutoresizingMaskIntoConstraints="NO" id="kE0-NE-dMB">
                                 <rect key="frame" x="237" y="552" width="157" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -640,11 +561,74 @@
                                 <rect key="frame" x="32" y="494" width="190" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vow-Pp-nXw">
+                                <rect key="frame" x="61" y="173" width="133" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiaryLabelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="f"/>
+                                <connections>
+                                    <action selector="laurieButtonPressed:" destination="FaO-iY-Mbr" eventType="touchUpInside" id="Vne-RE-RJw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhh-Rz-0Ds">
+                                <rect key="frame" x="202" y="208" width="109" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiaryLabelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="i"/>
+                                <connections>
+                                    <action selector="collageButtonPressed:" destination="FaO-iY-Mbr" eventType="touchUpInside" id="XR0-Em-Hx2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAu-kH-Dwu">
+                                <rect key="frame" x="74" y="376" width="148" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemFillColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="l"/>
+                                <connections>
+                                    <action selector="ramonaButtonPressed:" destination="FaO-iY-Mbr" eventType="touchUpInside" id="Q2S-bM-ZJ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khf-iw-kve">
+                                <rect key="frame" x="32" y="503" width="190" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemFillColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="l"/>
+                                <connections>
+                                    <action selector="monicaButtonPressed:" destination="FaO-iY-Mbr" eventType="touchUpInside" id="3dS-9e-Thb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSE-ke-LYo">
+                                <rect key="frame" x="237" y="562" width="157" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemFillColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="doaaButtonPressed:" destination="FaO-iY-Mbr" eventType="touchUpInside" id="j0R-w0-xEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FC-Fc-CbS">
+                                <rect key="frame" x="237" y="376" width="119" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiaryLabelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="l"/>
+                                <connections>
+                                    <action selector="isabelleButtonPressed:" destination="FaO-iY-Mbr" eventType="touchUpInside" id="WeA-vk-arB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="103-UU-xC4"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="lOz-P6-9tn"/>
+                    <connections>
+                        <segue destination="kcK-xz-cLB" kind="show" identifier="moveToArtistPage" id="jCn-5v-Fuk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UlV-B1-cGH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -674,16 +658,25 @@
         <image name="IMG_0263" width="1200" height="1511"/>
         <image name="IMG_0265" width="534" height="751"/>
         <image name="IMG_0266" width="768" height="773"/>
-        <image name="Screen Shot 2022-08-03 at 1.22.07 PM" width="768" height="539"/>
-        <image name="Screen Shot 2022-08-03 at 1.42.16 PM" width="845" height="532"/>
-        <image name="Screen Shot 2022-08-03 at 1.47.37 PM 1" width="666" height="967"/>
-        <image name="Screen Shot 2022-08-03 at 10.15.20 AM" width="1039" height="1396"/>
+        <image name="Object on Legs" width="666" height="967"/>
         <image name="Untitled_Artwork 5" width="828" height="1792"/>
         <image name="Untitled_Artwork 6" width="2048" height="2732"/>
         <image name="collage" width="990" height="1343"/>
+        <image name="girl in red" width="845" height="532"/>
         <image name="sculpture" width="1918" height="1328"/>
+        <image name="tiger roaring at woman" width="768" height="539"/>
+        <image name="woman with blood" width="1039" height="1396"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
