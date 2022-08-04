@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller1-->
         <scene sceneID="dLe-gn-Kxe">
             <objects>
-                <viewController id="RxX-J9-dRK" sceneMemberID="viewController">
+                <viewController id="RxX-J9-dRK" customClass="ViewController1" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WzH-5L-g6f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,6 +33,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="option3:" destination="RxX-J9-dRK" eventType="touchUpInside" id="hz1-QT-beE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zga-rc-0f1">
                                 <rect key="frame" x="222" y="374" width="160" height="66"/>
@@ -44,6 +47,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="option2:" destination="RxX-J9-dRK" eventType="touchUpInside" id="LIi-b5-1l5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJw-Qu-OrG">
                                 <rect key="frame" x="41" y="374" width="136" height="66"/>
@@ -55,6 +61,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="option1:" destination="RxX-J9-dRK" eventType="touchUpInside" id="giW-0q-TUa"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0263" translatesAutoresizingMaskIntoConstraints="NO" id="Unz-lo-bnw">
                                 <rect key="frame" x="118" y="99" width="178" height="221"/>
@@ -80,21 +89,27 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="option4:" destination="RxX-J9-dRK" eventType="touchUpInside" id="Zxo-ne-hzG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yNB-g0-POV"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="eHE-VP-KgH"/>
+                    <connections>
+                        <outlet property="textLabel1" destination="Wwj-4d-hmz" id="LNh-ig-Auw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CLg-87-Ga5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-782.60869565217399" y="484.82142857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="JmJ-jR-R37">
             <objects>
-                <viewController id="D4e-Le-CyG" sceneMemberID="viewController">
+                <viewController id="D4e-Le-CyG" customClass="ViewController2" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pG2-ko-fIl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,6 +135,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="choice1:" destination="D4e-Le-CyG" eventType="touchUpInside" id="qiH-k0-Puy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbv-4v-UvA">
                                 <rect key="frame" x="225" y="461" width="155" height="64"/>
@@ -131,6 +149,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="choice2:" destination="D4e-Le-CyG" eventType="touchUpInside" id="xg8-md-3Ta"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wc-CC-ga8">
                                 <rect key="frame" x="47" y="540" width="135" height="60"/>
@@ -142,6 +163,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="choice3:" destination="D4e-Le-CyG" eventType="touchUpInside" id="cyU-Fs-Usl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixs-b4-CFu">
                                 <rect key="frame" x="144" y="704" width="127" height="72"/>
@@ -165,21 +189,27 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="choice4:" destination="D4e-Le-CyG" eventType="touchUpInside" id="ErV-bu-MmP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LEI-3P-f0e"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="pR4-0c-eLJ"/>
+                    <connections>
+                        <outlet property="label2" destination="Mhl-g5-LhE" id="4Cw-Lq-v8S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSI-CJ-GPb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5.7971014492753632" y="709.82142857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller3-->
         <scene sceneID="hGU-AM-DRR">
             <objects>
-                <viewController id="PoR-cu-TiZ" sceneMemberID="viewController">
+                <viewController id="PoR-cu-TiZ" customClass="ViewController3" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8y5-Ha-oBt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,6 +235,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pick1:" destination="PoR-cu-TiZ" eventType="touchUpInside" id="RWv-Te-HI9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1V-6C-8Qx">
                                 <rect key="frame" x="209" y="476" width="179" height="61"/>
@@ -216,6 +249,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pick4:" destination="PoR-cu-TiZ" eventType="touchUpInside" id="PNO-Le-Cgl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRy-5P-Ju4">
                                 <rect key="frame" x="222" y="406" width="156" height="62"/>
@@ -227,6 +263,9 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pick2:" destination="PoR-cu-TiZ" eventType="touchUpInside" id="MLl-pd-LPP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaE-83-Dzi">
                                 <rect key="frame" x="146" y="730" width="123" height="57"/>
@@ -248,21 +287,27 @@
                                         <color key="backgroundColor" red="0.9098039269" green="0.91372549530000002" blue="0.9098039269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pick3:" destination="PoR-cu-TiZ" eventType="touchUpInside" id="8gY-tU-9GY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b5A-nZ-41q"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="P9B-gG-nkh"/>
+                    <connections>
+                        <outlet property="label3" destination="D00-kp-xjJ" id="tXL-wa-sdy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWC-Jd-FoE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="740.57971014492762" y="723.88392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller4-->
         <scene sceneID="cLt-Jc-Y7h">
             <objects>
-                <viewController id="Uqy-Dr-pYG" sceneMemberID="viewController">
+                <viewController id="Uqy-Dr-pYG" customClass="ViewController4" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ih-ZS-tdf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,7 +320,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LRB-YN-sfc">
-                                <rect key="frame" x="159" y="614" width="97" height="34"/>
+                                <rect key="frame" x="68" y="547" width="278" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -291,11 +336,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nx3-tT-S0C">
+                                <rect key="frame" x="129" y="623" width="156" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Submit" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="Submit:" destination="Uqy-Dr-pYG" eventType="touchUpInside" id="x6L-rH-tRp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XMj-AC-p0U"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lvk-iT-PFk"/>
+                    <connections>
+                        <outlet property="textField" destination="LRB-YN-sfc" id="Fhd-Ah-39x"/>
+                        <outlet property="textLabel" destination="6UH-0w-AGa" id="6Xq-gb-YER"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FUP-gS-qm5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -304,7 +365,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -360,6 +420,7 @@
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>

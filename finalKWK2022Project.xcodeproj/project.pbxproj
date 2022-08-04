@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD65FC5E289C3751006F0EA5 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD65FC5D289C3751006F0EA5 /* ViewController1.swift */; };
+		BD65FC60289C3890006F0EA5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD65FC5F289C388F006F0EA5 /* ViewController2.swift */; };
+		BD65FC62289C397B006F0EA5 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD65FC61289C397B006F0EA5 /* ViewController3.swift */; };
+		BD65FC64289C398C006F0EA5 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD65FC63289C398C006F0EA5 /* ViewController4.swift */; };
 		BD69593F2899C53D006BC4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69593E2899C53D006BC4D5 /* AppDelegate.swift */; };
 		BD6959412899C53D006BC4D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959402899C53D006BC4D5 /* SceneDelegate.swift */; };
 		BD6959432899C53D006BC4D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959422899C53D006BC4D5 /* ViewController.swift */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD65FC5D289C3751006F0EA5 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		BD65FC5F289C388F006F0EA5 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BD65FC61289C397B006F0EA5 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		BD65FC63289C398C006F0EA5 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		BD69593B2899C53D006BC4D5 /* finalKWK2022Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalKWK2022Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD69593E2899C53D006BC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD6959402899C53D006BC4D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +123,10 @@
 				BD6959402899C53D006BC4D5 /* SceneDelegate.swift */,
 				BD6959422899C53D006BC4D5 /* ViewController.swift */,
 				BD6959442899C53D006BC4D5 /* Main.storyboard */,
+				BD65FC61289C397B006F0EA5 /* ViewController3.swift */,
+				BD65FC63289C398C006F0EA5 /* ViewController4.swift */,
+				BD65FC5F289C388F006F0EA5 /* ViewController2.swift */,
+				BD65FC5D289C3751006F0EA5 /* ViewController1.swift */,
 				BD6959B6289AF791006BC4D5 /* segueViewController.swift */,
 				BD6959732899D42B006BC4D5 /* appChatViewController.swift */,
 				BD69594A2899C53E006BC4D5 /* Assets.xcassets */,
@@ -273,10 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD65FC62289C397B006F0EA5 /* ViewController3.swift in Sources */,
+				BD65FC5E289C3751006F0EA5 /* ViewController1.swift in Sources */,
 				BD6959742899D42B006BC4D5 /* appChatViewController.swift in Sources */,
 				BD6959722899CF2C006BC4D5 /* chatTableViewController.swift in Sources */,
 				BD6959762899E17E006BC4D5 /* ContentView.swift in Sources */,
 				BD6959492899C53D006BC4D5 /* finalKWK2022Project.xcdatamodeld in Sources */,
+				BD65FC60289C3890006F0EA5 /* ViewController2.swift in Sources */,
+				BD65FC64289C398C006F0EA5 /* ViewController4.swift in Sources */,
 				BD6959B7289AF791006BC4D5 /* segueViewController.swift in Sources */,
 				BD6959432899C53D006BC4D5 /* ViewController.swift in Sources */,
 				BD69593F2899C53D006BC4D5 /* AppDelegate.swift in Sources */,
