@@ -29,6 +29,11 @@ class chatViewController: UIViewController , UITableViewDataSource{
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
                                                             target: self,
                                                             action: #selector(didTapAdd))
+        let niceBrown = UIColor(red: 0.83, green: 0.80, blue: 0.73, alpha: 1.00)
+    
+
+        
+        UIScrollView.appearance().backgroundColor = niceBrown
     }
     
     @objc private func didTapAdd() {
