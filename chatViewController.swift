@@ -31,6 +31,7 @@ class chatViewController: UIViewController , UITableViewDataSource{
                                                             action: #selector(didTapAdd))
         let niceBrown = UIColor(red: 0.83, green: 0.80, blue: 0.73, alpha: 1.00)
     
+        //self.tableView.backgroundColor = niceBrown
 
         
         UIScrollView.appearance().backgroundColor = niceBrown

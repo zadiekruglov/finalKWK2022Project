@@ -9,7 +9,10 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    
     @IBOutlet weak var label2: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -27,6 +27,7 @@
 		BD6959B7289AF791006BC4D5 /* segueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959B6289AF791006BC4D5 /* segueViewController.swift */; };
 		BD6959B9289C7385006BC4D5 /* artistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959B8289C7385006BC4D5 /* artistViewController.swift */; };
 		BD6959BB289D7F00006BC4D5 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959BA289D7F00006BC4D5 /* chatViewController.swift */; };
+		BD6959BD289D9EEF006BC4D5 /* BODS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6959BC289D9EEE006BC4D5 /* BODS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		BD6959B6289AF791006BC4D5 /* segueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segueViewController.swift; sourceTree = "<group>"; };
 		BD6959B8289C7385006BC4D5 /* artistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artistViewController.swift; sourceTree = SOURCE_ROOT; };
 		BD6959BA289D7F00006BC4D5 /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		BD6959BC289D9EEE006BC4D5 /* BODS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BODS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				BD6959402899C53D006BC4D5 /* SceneDelegate.swift */,
 				BD6959422899C53D006BC4D5 /* ViewController.swift */,
 				BD6959442899C53D006BC4D5 /* Main.storyboard */,
+				BD6959BC289D9EEE006BC4D5 /* BODS.swift */,
 				BD6959B8289C7385006BC4D5 /* artistViewController.swift */,
 				BD65FC61289C397B006F0EA5 /* ViewController3.swift */,
 				BD65FC63289C398C006F0EA5 /* ViewController4.swift */,
@@ -300,6 +303,7 @@
 				BD65FC60289C3890006F0EA5 /* ViewController2.swift in Sources */,
 				BD65FC64289C398C006F0EA5 /* ViewController4.swift in Sources */,
 				BD6959B7289AF791006BC4D5 /* segueViewController.swift in Sources */,
+				BD6959BD289D9EEF006BC4D5 /* BODS.swift in Sources */,
 				BD6959432899C53D006BC4D5 /* ViewController.swift in Sources */,
 				BD6959B9289C7385006BC4D5 /* artistViewController.swift in Sources */,
 				BD69593F2899C53D006BC4D5 /* AppDelegate.swift in Sources */,

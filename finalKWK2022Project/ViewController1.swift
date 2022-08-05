@@ -9,7 +9,12 @@ import UIKit
 
 class ViewController1: UIViewController {
 
+//    @IBOutlet weak var textLabel1: UILabel!
+    
     @IBOutlet weak var textLabel1: UILabel!
+  //  @IBOutlet weak var textLabel1: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
