@@ -517,7 +517,7 @@
                                     <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="kEk-5h-1OW" kind="show" id="g23-1o-Zen"/>
+                                    <segue destination="DQ6-CO-2Qd" kind="show" id="QZ9-JQ-FWN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loI-pM-LhU">
@@ -634,21 +634,40 @@
             </objects>
             <point key="canvasLocation" x="660.86956521739137" y="87.723214285714278"/>
         </scene>
-        <!--App Chat View Controller-->
-        <scene sceneID="XTS-kc-Z9b">
+        <!--Chat View Controller-->
+        <scene sceneID="h82-M6-4pc">
             <objects>
-                <viewController id="kEk-5h-1OW" customClass="appChatViewController" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yzY-2G-v1s">
+                <viewController id="bDE-31-d6E" customClass="chatViewController" customModule="finalKWK2022Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g19-PO-a57">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="zz0-gG-C9w"/>
+                        <viewLayoutGuide key="safeArea" id="ydI-ck-a84"/>
                         <color key="backgroundColor" red="0.82745099070000006" green="0.80392158030000005" blue="0.7254902124" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hf2-BS-fUf"/>
+                    <navigationItem key="navigationItem" id="tLS-0Z-mhh"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tcb-Uz-cp7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sjb-H8-eEj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1510.144927536232" y="107.8125"/>
+            <point key="canvasLocation" x="3012" y="101"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7Sb-J0-XCo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DQ6-CO-2Qd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="gym-Zf-EeP"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="894-tA-ABm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bDE-31-d6E" kind="relationship" relationship="rootViewController" id="tAf-GC-3LC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="as0-M4-5rm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2083" y="88"/>
         </scene>
     </scenes>
     <resources>
